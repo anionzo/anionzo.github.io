@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mi Miêu',
-  tagline: 'Đến cùng là',
+  title: 'Anionzo',
+  tagline: 'In the end, do we have a cat, or does the cat allow us to enter its life?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,8 +31,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'vi',
+    locales: ['vi','en'],
   },
 
   presets: [
@@ -67,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Anionzo',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -81,7 +81,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/anionzo',
             label: 'GitHub',
             position: 'right',
           },
@@ -125,12 +125,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/anionzo',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} anionzo`,
       },
       prism: {
         theme: prismThemes.github,
@@ -140,3 +140,5 @@ const config = {
 };
 
 export default config;
+
+//   cmd /C 'set "GIT_USER=anionzo" && yarn deploy'
