@@ -7,9 +7,57 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+
+const footerLinks={
+  // @ts-ignore
+  style: 'dark', 
+  links: [
+    {
+      title: 'Docs',
+      items: [
+        {
+          label: 'Tutorial',
+          to: '/docs/intro',
+        },
+      ],
+    },
+    {
+      title: 'Community',
+      items: [
+        {
+          label: 'Stack Overflow',
+          href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        },
+        {
+          label: 'Discord',
+          href: 'https://discordapp.com/invite/docusaurus',
+        },
+        {
+          label: 'Twitter',
+          href: 'https://twitter.com/docusaurus',
+        },
+      ],
+    },
+    {
+      title: 'More',
+      items: [
+        {
+          label: 'Blog',
+          to: '/blog',
+        },
+        {
+          label: 'GitHub',
+          href: 'https://github.com/anionzo',
+        },
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} anionzo`,
+};
+
 const config = {
   title: 'Anionzo',
-  tagline: 'In the end, do we have a cat, or does the cat allow us to enter its life?',
+  tagline: 'Đến cùng là chúng ta có được mèo, hay mèo ân sủng chúng ta tiến vào cuộc sống của nó ?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -87,51 +135,7 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/anionzo',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} anionzo`,
-      },
+      footer: footerLinks,
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
