@@ -1,8 +1,8 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+title: Chào mừng đến với page của tôi
+authors: anionzo
+tags: [anionzo, hello]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).

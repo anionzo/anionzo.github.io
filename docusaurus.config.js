@@ -80,7 +80,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'vi',
-    locales: ['vi','en'],
+    locales: ['vi'],
   },
 
   presets: [
@@ -109,6 +109,7 @@ const config = {
     ],
   ],
 
+  // Menu navbar
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
