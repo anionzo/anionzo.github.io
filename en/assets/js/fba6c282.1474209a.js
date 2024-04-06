@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkanionzo_github_io=self.webpackChunkanionzo_github_io||[]).push([[907],{2331:o=>{o.exports=JSON.parse('{"permalink":"/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
