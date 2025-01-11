@@ -21,3 +21,13 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+  
+anionzo:
+  name: Mai Trung Tiến
+  title: 1 2 3 4
+  url: https://github.com/anionzo
+  image_url: https://github.com/anionzo.png
+  page: true
+  socials:
+    x: anionzo
+    github: anionzo
