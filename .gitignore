@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+*.log
+*.cache
+
+# Build output
+build/
+.docusaurus/
+.cache-loader/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor-specific
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+*.DS_Store
+
+# Other
+dist/
+coverage/
+yarn.lock
+package-lock.json
