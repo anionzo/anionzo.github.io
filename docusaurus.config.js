@@ -24,7 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'anionzo', // Usually your GitHub org/user name.
   projectName: 'anionzo.github.io', // Usually your repo name.
-
+  deploymentBranch: 'deploy', // Nhánh triển khai (mặc định là 'gh-pages').
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
